@@ -1,0 +1,310 @@
+img {
+width: 100%;
+}
+
+* {
+box-sizing: border-box;
+}
+
+body {
+text-align: center;
+font-family: 'Sarabun', sans-serif;
+}
+
+ul {
+padding-left: 0;
+list-style-type: none;
+}
+
+a {
+text-decoration: none;
+padding: 0;
+color: #2572aa;
+font-weight: 700;
+}
+
+h3, h2, p {
+color: #000;
+}
+
+h2 {
+text-transform: uppercase;
+font-size: 1em;
+}
+
+p {
+color: #7f7f7f;
+font-weight: 400;
+line-height: 1.5em;
+font-size: 1.2em;
+}
+
+nav, .profile, .contact, .main-footer {
+background-color: #f4f4f4;
+}
+
+.wrapper {
+width: 90%;
+margin: 0 auto;
+}
+
+.wrapper p {
+margin-top: 0;
+}
+
+.name {
+font-size: 2em;
+font-weight: 700;
+color: #000;
+}
+
+nav {
+padding: 30px 0 50px 0;
+}
+
+.main-nav {
+margin: 0;
+padding-top: 30px;
+}
+
+.main-nav li a {
+display: block;
+padding: 15px 0;
+background-color: #fff;
+margin-bottom: 10px;
+text-transform: uppercase;
+}
+
+.main-nav li a:hover {
+color: grey;
+}
+
+.profile img {
+margin-bottom: 30px;
+max-width: 75%;
+}
+
+.profile {
+padding-bottom: 30px;
+}
+
+.main {
+margin: 60px 0;
+}
+
+.main h2 {
+padding-bottom: 35px;
+}
+
+.main h3 {
+font-size: 1.45em;
+font-weight: 500;
+padding-top: 10px;
+}
+
+.main p {
+margin-bottom: 40px;
+}
+
+.contact {
+padding: 60px 0;
+}
+
+.contact h2 {
+padding-bottom: 30px;
+}
+
+.contact p {
+margin-bottom: 40px;
+}
+
+.contact a {
+font-size: 1.3em;
+font-style: normal;
+font-weight: 400;
+color: #7f7f7f;
+line-height: 2.5em;
+}
+
+.main-footer li a {
+display: block;
+color: #4a4a4a;
+}
+
+.main-footer li a:hover {
+color: lightgrey;
+}
+
+.main-footer ul {
+display: none;
+}
+
+.main-footer p {
+float: left;
+font-weight: 700;
+margin: 0;
+}
+
+footer {
+border-top: 1px solid grey;
+padding: 30px 0 60px;
+}
+
+.main-footer a {
+float: right;
+padding-top: 6px;
+}
+
+.clearfix::after {
+content: "";
+clear: both;
+display: table;
+}
+
+
+
+.skills {
+  margin-top: 100px;
+}
+
+.skills h3 {
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+.text {
+  color: #fff
+}
+
+@media (min-width:768px) {
+
+.main-nav {
+padding-top: 10px;
+}
+
+.main-nav li {
+display: inline-block;
+}
+
+.main-nav li a {
+background: transparent;
+margin: 0 20px;
+color: #fff;
+}
+
+.name {
+font-size: 1.7em;
+}
+
+.profile img {
+float: right;
+width: 40%;
+}
+
+.profile p {
+float: left;
+width: 60%;
+text-align: left;
+padding-right: 10px;
+padding-top: 30px;
+}
+
+.main section {
+width: 50%;
+display: inline-block;
+margin-right: -2px;
+padding: 0 5px;
+vertical-align: top;
+}
+
+.main h3 {
+font-size: 1.2em;
+font-family: 'Sarabun', sans-serif;
+text-transform: uppercase;
+}
+
+.main p {
+font-size: 1em;
+padding: 0 1.2em;
+}
+
+.main-footer ul {
+display: block;
+margin-top: 0;
+float: right;
+}
+
+.main-footer ul li {
+float: left;
+}
+
+.main-footer a{
+text-transform: uppercase;
+padding-left: 20px;
+font-size: .8em;
+}
+
+.main-footer p {
+font-size: 1em;
+}
+
+footer {
+padding-bottom: 80px;
+}
+
+
+.contact {
+padding: 50px 100px;
+}
+
+.skills {
+  margin-top: 40px;
+}
+
+}
+
+@media (min-width: 1024px) {
+
+.name {
+float: left;
+padding-top: 12px;
+}
+
+.main-nav {
+float: right;
+z-index: 1;
+}
+
+.profile p {
+vertical-align: top;
+text-align: center;
+
+}
+
+.main-nav li a {
+margin: 0 0 0 35px;
+}
+
+.main section {
+width: 33%;
+display: inline-block;
+margin-right: -2px;
+padding: 0 5px;
+}
+
+.contact p {
+padding: 0 15%;
+}
+.profile img {
+float: right;
+width: 40%;
+}
+.container {
+   display: inline-block;
+   width: 15;
+}
+.skills li{
+  display: inline-block;
+}
+
+}
