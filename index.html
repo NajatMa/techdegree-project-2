@@ -9,24 +9,26 @@
     <title>Mobile-first Responsive Layout</title>
   </head>
   <body>
-    <header>
+    <header class="clearfix" id="home">
       <h1 class="name">Annajat Malainine</h1>
       <nav class="main-nav">
         <ul>
           <li><a href="#home">Home</a></li>
           <li><a href="#portfolio">Portfolio</a></li>
           <li><a href="#contact">Contact</a></li>
+          <li><a href="#skills">Skills</a></li>
         </ul>
       </nav>
+      </header>
       <div class="profile clearfix">
         <img src="images/responsive-layout-profile.png" alt="profile image" class="profil-img">
         <p>Hi! I'm a front-end developer who loves responsive design and css.
            I recently finished learning front-end web development at Treehouse and am excited to put all my skills to use!</p>
       </div>
-    </header>
+
 
     <main>
-    <div class="container">
+    <div class="container clearfix" id="portfolio">
       <h2>PORTFOLIO</h2>
 
       <section class="marketing">
@@ -66,18 +68,18 @@
       </section>
     </div>
     </main>
-    <div class="wrapper">
-    <section class="skills">
+    <div class="wrapper clearfix">
+    <section class="skills" id="skills">
           <h3>SKILLS:</h3>
           <ul>
           <li><img src="images/html.png" alt="html logo"></li>
-          <li><img src="images/css.png" alt="css logo"></li>
+          <li><img src="images/css.jpg" alt="css logo"></li>
           <li><img src="images/javascript.png" alt="javascript logo"></li>
           <li><img src="images/c.png" alt="c logo"></li>
         </ul>
         </section>
 
-        <section class="contact">
+        <section class="contact" id="contact">
           <h2>Contact</h2>
           <p>If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you!</p>
           <p><strong>Email:</strong> <a href="mailto:najatmalainine1@gmail.com?subject=Hi%20There!">najatmalainine1@gmail.com</a></p>
@@ -92,16 +94,16 @@
       </div>
 
       <footer class="main-footer">
-                      <nav>
+                      <p>Annajat Malainine</p>
+
                       <ul>
-                        <li><strong>Annajat Malainine</strong></li>
-                        <li><a href="#home">HOME</a></li>
-                        <li><a href="#portfolio">PORTFOLIO</a></li>
-                        <li><a href="#contact">CONTACT</a></li>
-                        <li><a href="#skills">SKILLS</a></li>
-                        <li><a href="#home"><strong>BACK TO TOP</strong></a></li>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#skills">Skills</a></li>
                       </ul>
-                      </nav>
+                    
+            <a class="backto" href="#home">back to top</a>
       </footer>
   </body>
 </html>
