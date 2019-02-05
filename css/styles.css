@@ -74,6 +74,7 @@ display: block;
 padding: 15px 0;
 margin-bottom: 10px;
 text-transform: uppercase;
+color: black;
 }
 
 .main-nav li a:hover {
@@ -120,7 +121,7 @@ margin-bottom: 40px;
 }
 
 .contact a {
-font-size: 1.3em;
+font-size: 1.1em;
 font-style: normal;
 font-weight: 400;
 color: #7f7f7f;
@@ -243,7 +244,7 @@ vertical-align: top;
 
 .container h3 {
 font-size: 1.2em;
-font-family: 'Sarabun', sans-serif;
+font-family: 'Oswald', sans-serif;
 text-transform: uppercase;
 }
 
@@ -291,6 +292,11 @@ padding: 50px 100px;
 
 .skills li{
   display: inline-block;
+}
+
+.skills ul{
+  display: flex;
+  justify-content: center;
 }
 
 }
